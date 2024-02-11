@@ -1,0 +1,72 @@
+﻿<Window x:Class="Wpfkalgin.Task9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpfkalgin"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen"
+        Title="Task9" Height="60" Width="750">
+    <Border CornerRadius="26">
+        <Grid Background="AliceBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0"
+                    CornerRadius="10"
+                    Margin="10"
+                    Background="Gainsboro">
+                <StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Top">
+                    <Button Content="a=1.2; b=7.2; z=e^x"
+                            x:Name="abz91"
+                            Background="Transparent"
+                            Margin="3" Click="abz91_Click"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Column="1"
+                    CornerRadius="10"
+                    Margin="10"
+                    Background="Gainsboro">
+                <StackPanel HorizontalAlignment="Center" Margin="0,0,0,2">
+                    <Button Content="a=-1.5; b=3.2; z=e^2x"
+                            x:Name="abz92"
+                            Background="Transparent"
+                            Margin="3" Click="abz92_Click"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Column="2"
+                    CornerRadius="10"
+                    Margin="10"
+                    Background="Gainsboro">
+                <StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Top">
+                    <Button Content="a=1.7; b=5.5; z=e^3"
+                            x:Name="abz93"
+                            Background="Transparent"
+                            Margin="3" Click="abz93_Click"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Column="3"
+                    CornerRadius="10"
+                    Margin="10"
+                    Background="Gainsboro">
+                <StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Top">
+                    <Button Content="Назад"
+                            x:Name="Backtotasks3"
+                            Background="Transparent"
+                            Margin="3" Click="Backtotasks_Click"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

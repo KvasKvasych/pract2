@@ -1,0 +1,72 @@
+﻿<Window x:Class="Wpfkalgin.Task12"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpfkalgin"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen"
+        Title="Task12" Height="60" Width="770">
+    <Border CornerRadius="26">
+        <Grid Background="AliceBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="210"/>
+                <ColumnDefinition Width="210"/>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0"
+                    CornerRadius="10"
+                    Margin="10"
+                    Background="Gainsboro">
+                <StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Top">
+                    <Button Content="k=4; m=-14.7; n=-0.6"
+                            x:Name="kmn121"
+                            Background="Transparent"
+                            Margin="3" Click="kmn121_Click"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Column="1"
+                    CornerRadius="10"
+                    Margin="10"
+                    Background="Gainsboro">
+                <StackPanel HorizontalAlignment="Center" Margin="0,0,0,2">
+                    <Button Content="k=3; m=6.5; n=3.15"
+                            x:Name="kmn122"
+                            Background="Transparent"
+                            Margin="3" Click="kmn122_Click"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Column="2"
+                    CornerRadius="10"
+                    Margin="10"
+                    Background="Gainsboro">
+                <StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Top">
+                    <Button Content="k=4; m=-12; n=0.45"
+                            x:Name="kmn123"
+                            Background="Transparent"
+                            Margin="3" Click="kmn123_Click"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Column="3"
+                    CornerRadius="10"
+                    Margin="10"
+                    Background="Gainsboro">
+                <StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Top">
+                    <Button Content="Назад"
+                            x:Name="Backtotasks3"
+                            Background="Transparent"
+                            Margin="3" Click="Backtotasks_Click"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Border>
+</Window>
